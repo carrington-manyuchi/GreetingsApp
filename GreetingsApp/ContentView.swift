@@ -9,27 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            LinearGradient(colors: [.cyan, .blue], startPoint: .topLeading, endPoint: .bottomTrailing)
-                .opacity(0.5)
-                .ignoresSafeArea()
+        VStack(alignment: .leading) {
             
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                Text("Greetings App")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                    .padding()
-                    .foregroundStyle(.red)
-                    .background(Color.orange)
-                    .clipShape(RoundedRectangle(cornerRadius: 20))
-                    .shadow(color: Color.orange, radius: 5, x: 5, y: 6)
-                    .padding()
-            }
-            .padding()
+            TextView(text: "Hello there!", color: .green)
+            
+            TextView(text: "Welcome to Swift programming!", color: .gray)
+            
+            TextView(text: "Are you ready to start", color: .yellow)
+            
+            TextView(text: "Start eploring!", color: .red)
+            
+            TextView(text: "Let's get started!", color: .blue)
+            
+            TextView(text: "Boom", color: .purple)
+            
         }
+        .padding()
     }
 }
 

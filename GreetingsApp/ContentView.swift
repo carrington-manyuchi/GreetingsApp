@@ -8,23 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        VStack(alignment: .leading) {
-            
-            TextView(text: "Hello there!", color: .green)
-            
-            TextView(text: "Welcome to Swift programming!", color: .gray)
-            
-            TextView(text: "Are you ready to start", color: .yellow)
-            
-            TextView(text: "Start eploring!", color: .red)
-            
-            TextView(text: "Let's get started!", color: .blue)
-            
-            TextView(text: "Boom", color: .purple)
-            
+        ZStack {
+            BackgroundView()
+            VStack(alignment: .leading) {
+                TitleView()
+                Spacer()
+                MessagesView()
+                Spacer()
+                Spacer()
+                Spacer()
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

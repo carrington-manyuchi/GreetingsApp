@@ -6,13 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		E65959B72CF43931003E8CE0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65959B62CF43931003E8CE0 /* TextView.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		E65959A52CF43454003E8CE0 /* GreetingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E65959B62CF43931003E8CE0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,7 +32,6 @@
 		E659599C2CF43454003E8CE0 = {
 			isa = PBXGroup;
 			children = (
-				E65959B62CF43931003E8CE0 /* TextView.swift */,
 				E65959A72CF43454003E8CE0 /* GreetingsApp */,
 				E65959A62CF43454003E8CE0 /* Products */,
 			);
@@ -125,7 +119,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E65959B72CF43931003E8CE0 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

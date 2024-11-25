@@ -14,7 +14,7 @@ struct ContentView: View {
             BackgroundView()
             VStack(alignment: .leading) {
                 TitleView()
-                Spacer()
+               Spacer()
                 MessagesView()
                 Spacer()
                 Spacer()
